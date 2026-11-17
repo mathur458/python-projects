@@ -1,0 +1,109 @@
+2026-11-17 16:00:26,402 - INFO - Product check started: Laptop
+2026-11-17 16:00:26,402 - DEBUG - Checking stock: available=5, requested=2
+2026-11-17 16:00:26,402 - INFO - Stock available for requested quantity 2
+2026-11-17 16:00:26,402 - DEBUG - Calculating total price: price=55000, quantity=2
+2026-11-17 16:00:26,402 - INFO - Total price calculated: 110000
+2026-11-17 16:00:26,402 - DEBUG - Applying discount: total=110000, discount=10%
+2026-11-17 16:00:26,402 - INFO - Discount applied: 110000 -> 99000.0
+2026-11-17 16:00:26,402 - INFO - Order for Laptop processed successfully: 99000.0
+2026-11-17 16:00:26,403 - INFO - Product check started: Mouse
+2026-11-17 16:00:26,403 - DEBUG - Checking stock: available=4, requested=10
+2026-11-17 16:00:26,403 - WARNING - Insufficient stock: requested 10, only 4 available
+2026-11-17 16:00:26,403 - INFO - Product check started: Keyboard
+2026-11-17 16:00:26,403 - DEBUG - Checking stock: available=20, requested=-1
+2026-11-17 16:00:26,403 - ERROR - Requested quantity cannot be negative, got -1
+2026-11-17 16:00:26,403 - ERROR - Order for Keyboard failed: Requested quantity cannot be negative
+2026-11-17 16:00:26,403 - INFO - Product check started: Monitor
+2026-11-17 16:00:26,403 - DEBUG - Checking stock: available=3, requested=1
+2026-11-17 16:00:26,403 - INFO - Stock available for requested quantity 1
+2026-11-17 16:00:26,403 - DEBUG - Calculating total price: price=12000, quantity=1
+2026-11-17 16:00:26,403 - INFO - Total price calculated: 12000
+2026-11-17 16:00:26,403 - DEBUG - Applying discount: total=12000, discount=150%
+2026-11-17 16:00:26,403 - ERROR - Discount percent must be 0-100, got 150
+2026-11-17 16:00:26,403 - ERROR - Order for Monitor failed: Discount percent must be between 0 and 100
+2026-11-17 21:38:56,722 - INFO - Product check started: Laptop
+2026-11-17 21:38:56,722 - DEBUG - Checking stock: available=5, requested=2
+2026-11-17 21:38:56,722 - INFO - Stock available for requested quantity 2
+2026-11-17 21:38:56,723 - DEBUG - Calculating total price: price=55000, quantity=2
+2026-11-17 21:38:56,723 - INFO - Total price calculated: 110000
+2026-11-17 21:38:56,723 - DEBUG - Applying discount: total=110000, discount=10%
+2026-11-17 21:38:56,723 - INFO - Discount applied: 110000 -> 99000.0
+2026-11-17 21:38:56,723 - INFO - Order for Laptop processed successfully: 99000.0
+2026-11-17 21:38:56,723 - INFO - Product check started: Mouse
+2026-11-17 21:38:56,723 - DEBUG - Checking stock: available=4, requested=10
+2026-11-17 21:38:56,723 - WARNING - Insufficient stock: requested 10, only 4 available
+2026-11-17 21:38:56,723 - INFO - Product check started: Keyboard
+2026-11-17 21:38:56,723 - DEBUG - Checking stock: available=20, requested=-1
+2026-11-17 21:38:56,723 - ERROR - Requested quantity cannot be negative, got -1
+2026-11-17 21:38:56,723 - ERROR - Order for Keyboard failed: Requested quantity cannot be negative
+2026-11-17 21:38:56,723 - INFO - Product check started: Monitor
+2026-11-17 21:38:56,723 - DEBUG - Checking stock: available=3, requested=1
+2026-11-17 21:38:56,723 - INFO - Stock available for requested quantity 1
+2026-11-17 21:38:56,723 - DEBUG - Calculating total price: price=12000, quantity=1
+2026-11-17 21:38:56,723 - INFO - Total price calculated: 12000
+2026-11-17 21:38:56,723 - DEBUG - Applying discount: total=12000, discount=150%
+2026-11-17 21:38:56,723 - ERROR - Discount percent must be 0-100, got 150
+2026-11-17 21:38:56,723 - ERROR - Order for Monitor failed: Discount percent must be between 0 and 100
+2026-11-17 21:39:19,871 - DEBUG - Calculating total price: price=250.5, quantity=4
+2026-11-17 21:39:19,871 - INFO - Total price calculated: 1002.0
+2026-11-17 21:39:19,872 - DEBUG - Calculating total price: price=100, quantity=0
+2026-11-17 21:39:19,872 - WARNING - Quantity is zero; total price will be 0
+2026-11-17 21:39:19,872 - INFO - Total price calculated: 0
+2026-11-17 21:39:19,872 - DEBUG - Calculating total price: price=-10, quantity=2
+2026-11-17 21:39:19,872 - ERROR - Price cannot be negative, got -10
+2026-11-17 21:39:19,873 - DEBUG - Calculating total price: price=10, quantity=-2
+2026-11-17 21:39:19,873 - ERROR - Quantity cannot be negative, got -2
+2026-11-17 21:39:19,873 - DEBUG - Calculating total price: price=abc, quantity=2
+2026-11-17 21:39:19,873 - ERROR - Price must be a number, got 'abc'
+2026-11-17 21:39:19,873 - DEBUG - Calculating total price: price=10, quantity=2.5
+2026-11-17 21:39:19,873 - ERROR - Quantity must be an integer, got 2.5
+2026-11-17 21:39:19,873 - DEBUG - Applying discount: total=1000, discount=10%
+2026-11-17 21:39:19,873 - INFO - Discount applied: 1000 -> 900.0
+2026-11-17 21:39:19,874 - DEBUG - Applying discount: total=500, discount=0%
+2026-11-17 21:39:19,874 - WARNING - Discount is 0%; no discount applied
+2026-11-17 21:39:19,874 - INFO - Discount applied: 500 -> 500.0
+2026-11-17 21:39:19,874 - DEBUG - Applying discount: total=500, discount=100%
+2026-11-17 21:39:19,874 - INFO - Discount applied: 500 -> 0.0
+2026-11-17 21:39:19,874 - DEBUG - Applying discount: total=1000, discount=-5%
+2026-11-17 21:39:19,874 - ERROR - Discount percent cannot be negative, got -5
+2026-11-17 21:39:19,875 - DEBUG - Applying discount: total=1000, discount=100.1%
+2026-11-17 21:39:19,875 - ERROR - Discount percent must be 0-100, got 100.1
+2026-11-17 21:39:19,875 - DEBUG - Applying discount: total=1000, discount=150%
+2026-11-17 21:39:19,875 - ERROR - Discount percent must be 0-100, got 150
+2026-11-17 21:39:19,875 - DEBUG - Applying discount: total=-1000, discount=10%
+2026-11-17 21:39:19,875 - ERROR - Total cannot be negative, got -1000
+2026-11-17 21:39:19,876 - DEBUG - Checking stock: available=10, requested=5
+2026-11-17 21:39:19,876 - INFO - Stock available for requested quantity 5
+2026-11-17 21:39:19,876 - DEBUG - Checking stock: available=5, requested=5
+2026-11-17 21:39:19,876 - INFO - Stock available for requested quantity 5
+2026-11-17 21:39:19,876 - DEBUG - Checking stock: available=3, requested=5
+2026-11-17 21:39:19,876 - WARNING - Insufficient stock: requested 5, only 3 available
+2026-11-17 21:39:19,876 - DEBUG - Checking stock: available=10, requested=0
+2026-11-17 21:39:19,877 - ERROR - Requested quantity must be at least 1
+2026-11-17 21:39:19,877 - DEBUG - Checking stock: available=10, requested=-1
+2026-11-17 21:39:19,877 - ERROR - Requested quantity cannot be negative, got -1
+2026-11-17 21:39:19,877 - DEBUG - Checking stock: available=-10, requested=1
+2026-11-17 21:39:19,877 - ERROR - Available stock cannot be negative, got -10
+2026-11-17 21:39:19,877 - DEBUG - Checking stock: available=10, requested=five
+2026-11-17 21:39:19,877 - ERROR - Requested quantity must be an integer, got 'five'
+2026-11-17 21:39:19,877 - INFO - Product check started: Laptop
+2026-11-17 21:39:19,877 - DEBUG - Checking stock: available=5, requested=2
+2026-11-17 21:39:19,877 - INFO - Stock available for requested quantity 2
+2026-11-17 21:39:19,878 - DEBUG - Calculating total price: price=1000, quantity=2
+2026-11-17 21:39:19,878 - INFO - Total price calculated: 2000
+2026-11-17 21:39:19,878 - DEBUG - Applying discount: total=2000, discount=10%
+2026-11-17 21:39:19,878 - INFO - Discount applied: 2000 -> 1800.0
+2026-11-17 21:39:19,878 - INFO - Order for Laptop processed successfully: 1800.0
+2026-11-17 21:39:19,878 - INFO - Product check started: Mouse
+2026-11-17 21:39:19,878 - DEBUG - Checking stock: available=4, requested=10
+2026-11-17 21:39:19,878 - WARNING - Insufficient stock: requested 10, only 4 available
+2026-11-17 21:39:19,878 - INFO - Product check started: Keyboard
+2026-11-17 21:39:19,878 - DEBUG - Checking stock: available=20, requested=2
+2026-11-17 21:39:19,878 - INFO - Stock available for requested quantity 2
+2026-11-17 21:39:19,878 - DEBUG - Calculating total price: price=1500, quantity=2
+2026-11-17 21:39:19,878 - INFO - Total price calculated: 3000
+2026-11-17 21:39:19,878 - DEBUG - Applying discount: total=3000, discount=150%
+2026-11-17 21:39:19,878 - ERROR - Discount percent must be 0-100, got 150
+2026-11-17 21:39:19,878 - ERROR - Order for Keyboard failed: Discount percent must be between 0 and 100
+2026-11-17 21:39:19,879 - WARNING - Insufficient stock: requested 5, only 1 available
+2026-11-17 21:39:19,879 - ERROR - Price cannot be negative, got -1
